@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Login Demo</title>
+    <link rel="icon" href="ico/yuzhou.png" type="image/png">
+    <link href="https://fonts.font.im/css?family=Julius+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/likewin11UI.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+        </div>
+        <div class="right">
+            <img src="./tupian/Geography-01.png" alt="DQY Icon" class="DQY">
+            <h3>Login</h3>
+            <h2>Welcome Back!</h2>
+            <form action="login.php" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <!-- 验证码输入框和验证码图片 -->
+                <div class="captcha-container">
+                    <input type="text" name="captcha" placeholder="Enter Captcha" required>
+                    <img src="php/captcha.php" alt="Captcha Image">
+                </div>
+                <a href="#">Forgot Password?</a>
+                <input type="submit" value="Log In">
+            </form>
+            <p>Or</p>
+            <a href="#" class="social-btn">
+                <img src="./tupian/QQ.png" alt="QQ Logo">
+                QQ Login
+            </a>
+            <a href="#" class="social-btn">
+                <img src="./tupian/WECHART.png" alt="WeChat Logo">
+                WeChat Login
+            </a>
+            <a href="#" class="social-btn">
+                <img src="./tupian/google.png" alt="Google Logo">
+                Google Login
+            </a>
+            <p>Don't have an account? <a href="#">Create now</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
