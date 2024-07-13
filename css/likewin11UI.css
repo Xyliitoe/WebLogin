@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../tupian/xingkong.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    width: 1050px;
+    height: 750px;
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+}
+.left {
+    width: 50%;
+    background: url('../tupian/yuhangyuan.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px 0 0 15px;
+    position: relative;
+}
+.right {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 15px 15px 0;
+    align-items: center;
+}
+.right h2 {
+    margin-bottom: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.right h3 {
+    margin: -5px 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+.right form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right input {
+    width: calc(100% - 40px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.right input[type="submit"] {
+    width: 100%;
+    background: #6A11CB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 15px;
+}
+.right input[type="submit"]:hover {
+    background: #2575FC;
+}
+.right a {
+    color: #6A11CB;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.captcha-container {
+    display: flex;
+    align-items: center;
+    width: 400px; 
+    margin-bottom: 20px;
+}
+.captcha-container input {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: -18px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.captcha-container img {
+    height: 50px;
+    width: 140px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.right .social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #6A11CB;
+    border: 1px solid #6A11CB;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 80%; 
+}
+.right .social-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+.DQY {
+    width: 50px;
+    margin-bottom: 10px;
+}
