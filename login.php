@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
             $_SESSION['user_id'] = $row['id'];
-            header("Location: docxupload.html");
+            header("Location: ./zhongzhuan.html");
             exit();
         } else {
             echo "Invalid password.";
